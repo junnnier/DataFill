@@ -1,0 +1,428 @@
+# 数据索引:
+#   -
+#     "sheet": 表格sheet索引
+#     "position": 数据写入的位置
+#     "replace": 是否覆盖模板数据（空值为覆盖, "模板数据里被替换的字符"）
+#     "font": 字体格式（可选）
+#     "number_format": 数据样式（可选）
+# 一个数据索引为一个list，可以填写多个指定的规则，用于将该索引下的数据填写到多个地方。每个规则为一个dict。
+rule:
+  0:
+    -
+      "sheet": 0
+      "position": "A11"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "D7"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "F2"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "E7"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  3:
+    -
+      "sheet": 0
+      "position": "C13"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "G15"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  4:
+    -
+      "sheet": 0
+      "position": "D17"
+      "replace": "{}"
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "E19"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "C8"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "E15"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  5:
+    -
+      "sheet": 3
+      "position": "K15"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  6:
+    -
+      "sheet": 0
+      "position": "D13"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "I15"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  7:
+    -
+      "sheet": 0
+      "position": "E13"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "J15"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  8:
+    -
+      "sheet": 0
+      "position": "F17"
+      "replace": "{}"
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "I19"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "G8"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  9:
+    -
+      "sheet": 0
+      "position": "K11"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "C13"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "D15"
+      "replace": "{}"
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "B12"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "C9"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "E11"
+      "replace": "{}"
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  10:
+    -
+      "sheet": 0
+      "position": "I11"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "A15"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "F12"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "A11"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  11:
+    -
+      "sheet": 0
+      "position": "E11"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 0
+      "position": "G11"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 0
+      "position": "J17"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+  12:
+    -
+      "sheet": 1
+      "position": "G7"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "I7"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  13:
+    -
+      "sheet": 2
+      "position": "F3"
+      "replace": 
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+      "number_format": "yyyy-mm-dd"
+  14:
+    -
+      "sheet": 0
+      "position": "B4"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 9
+        "color": "0000FF"
+    -
+      "sheet": 0
+      "position": "B8"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 9
+        "color": "0000FF"
+  15:
+    -
+      "sheet": 1
+      "position": "A3"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "A5"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "A3"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  16:
+    -
+      "sheet": 1
+      "position": "D2"
+      "replace":
+      "font":
+        "name": "宋体"
+        "size": 18
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "E2"
+      "replace":
+      "font":
+        "name": "宋体"
+        "size": 18
+        "color": "0000FF"
+  17:
+    -
+      "sheet": 0
+      "position": "B6"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 1
+      "position": "A5"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 2
+      "position": "C5"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+    -
+      "sheet": 3
+      "position": "A5"
+      "replace":
+      "font":
+        "name": "Times New Roman"
+        "size": 10
+        "color": "0000FF"
+  18:
+    -
+      "sheet": 0
+      "position": "D3"
+      "replace":
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+  19:
+    -
+      "sheet": 0
+      "position": "G18"
+    -
+      "sheet": 1
+      "position": "E22"
+    -
+      "sheet": 2
+      "position": "D17"
+    -
+      "sheet": 3
+      "position": "I18"
+  20:
+    -
+      "sheet": 0
+      "position": "K17"
+      "replace": 
+      "font":
+        "name": "微软雅黑"
+        "size": 10
+        "color": "0000FF"
+
+# 填写的数据内容:
+#   -
+#     "sheet": 表格sheet索引
+#     "position": 数据写入的位置
+#     "replace": 是否覆盖模板数据(为覆盖, "模板数据里被替换的字符")
+#     "font": 字体格式，字典
+#     "number_format": 数据样式
+# 一个数据内容下为一个list，可以填写多个指定的规则，用于将数据填写到多个地方。每个规则为一个dict。
+rule_post:
+
